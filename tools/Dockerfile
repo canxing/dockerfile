@@ -7,4 +7,7 @@ RUN curl -o k3s-airgap-images-amd64.tar -sfL https://github.com/rancher/k3s/rele
 RUN wget https://ipfs.io/api/v0/get/bafybeigkbbjnltbd4ewfj7elajsbnjwinyk6tiilczkqsibf3o7dcr6nn4 && \
     mv bafybeigkbbjnltbd4ewfj7elajsbnjwinyk6tiilczkqsibf3o7dcr6nn4 webui-2.9.0
 
+RUN wget https://ipfs.io/api/v0/get/QmQLXHs7K98JNQdWrBB2cQLJahPhmupbDjRuH1b9ibmwVa && \
+    mv QmQLXHs7K98JNQdWrBB2cQLJahPhmupbDjRuH1b9ibmwVa webui
+
 RUN wget https://github.com/getlantern/lantern/releases/download/5.9.13/update_linux_amd64.bz2

@@ -12,5 +12,5 @@ WORKDIR /root
 
 # RUN wget https://github.com/getlantern/lantern/releases/download/5.9.13/update_linux_amd64.bz2
 
-COPY download.sh /
+COPY download.sh /root
 RUN chmod +x download.sh && ./download.sh 2.2.0 1.4.7

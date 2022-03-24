@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/kube-state-metrics/kube-state-metrics-arm64:v2.2.0
+FROM --platform=linux/arm64 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.2.4
